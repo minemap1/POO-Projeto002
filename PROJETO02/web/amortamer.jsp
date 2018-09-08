@@ -61,7 +61,6 @@
                         double taxa = Double.parseDouble(request.getParameter("t"));
                           
                         double juros = (emprestimo * (taxa / 100));
-                        double tj = juros * meses;
                                 
                         DecimalFormat f = new DecimalFormat("#,##0.00");
                         for(int cont = 0; cont <= meses; cont++){
@@ -92,7 +91,7 @@
                                 out.println("<td scope='col'>----</td>");
                                 out.println("<td scope='col'>"+ f.format(juros) +"</td>");
                                 out.println("<td scope='col'>"+ f.format(juros) +"</td>");
-                                tj += tj; 
+                                
 
                                 out.println("</tbody");
                                 out.println("</table>");        
@@ -101,8 +100,8 @@
                                 out.println("<th scope='col'></th>");
                                 out.println("<th scope='col'>Total</th>");
                                 out.println("<th scope='col'>"+ f.format(emprestimo) +"</th>");
-                                out.println("<th scope='col'>"+ f.format(tj) +"</th>");
-                                out.println("<th scope='col'>"+ f.format(emprestimo + tj) +"</th>");
+                                out.println("<th scope='col'>"+ f.format(juros * meses) +"</th>");
+                                out.println("<th scope='col'>"+ f.format(emprestimo + (juros * meses)) +"</th>");
                                 out.println("</tbody");
                                 out.println("</table>");
                     
