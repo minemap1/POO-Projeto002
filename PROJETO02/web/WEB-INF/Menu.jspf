@@ -2,8 +2,8 @@
 <%@ page pageEncoding="UTF-8" %>
 <h2>
     
-    <a href="Index.jsp">index</a> || <a href="amortcons.jsp">Amortizaçao constante</a> ||
-    <a href="amortamer.jsp">Amortização Americana </a> || <a href="tabelaprice.jsp">tabela price</a>
+    <a href="Index.jsp">Index</a> || <a href="amortcons.jsp">Amortizaçao Constante</a> ||
+    <a href="amortamer.jsp">Amortização Americana </a> || <a href="tabelaprice.jsp">Tabela Price</a>
     
     
     
