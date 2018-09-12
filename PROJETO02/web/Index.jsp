@@ -31,7 +31,11 @@
             <p>Calcular os sistemas de amortizacao, atraves dos calculos da Tabela Price, Tabela SAC (Sistema de Amortizacao Constante) e Sistema Americano.</p>
         </div>
         
-        
+        <div class="flexbox-btn">
+            <a class="btn" href="amortamer.jps">Amortizacao Americana</a>
+            <a class="btn" href="tabelaprice.jps">Tabela Price</a>
+            <a class="btn" href="amortcons.jps">Tabela SAC</a>
+        </div>
         
     <%-- Include do rodapé --%>
     <%@include file="WEB-INF/footer.jspf" %>
