@@ -15,5 +15,7 @@
         <h1>Home Sweet Home</h1>
     
     
+    <%-- Include do rodapé --%>
+    <%@include file="WEB-INF/footer.jspf" %>
     </body>
 </html>
