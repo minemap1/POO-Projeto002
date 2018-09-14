@@ -17,7 +17,7 @@
 
     <body>
         <div>
-            <h1><center>Amortização Americana</center></h1><br>
+            <h1 class="font"><center>Amortização Americana</center></h1><br>
             <div class="container">
                 <form action="amortamer.jsp" method="POST">
                     <div class="col-md-6 offset-md-5">
@@ -112,5 +112,7 @@
                 }
             %>
         </div>
+        <%-- Include do rodapé --%>
+        <%@include file="WEB-INF/footer.jspf" %>
     </body>
 </html>
