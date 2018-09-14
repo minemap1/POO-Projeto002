@@ -1,11 +1,14 @@
 <%-- any content can be specified here e.g.: --%>
 <%@ page pageEncoding="UTF-8" %>
-<h2>
-    
-    <a href="Index.jsp">Index</a> || <a href="amortcons.jsp">Amortizaçao Constante</a> ||
-    <a href="amortamer.jsp">Amortização Americana </a> || <a href="tabelaprice.jsp">Tabela Price</a>
-    
-    
-    
-    
-</h2>
+
+            <div class="h-amortizacao">
+                <h1 class="font">Calculo de Amortizacao</h1>
+                <h2>POO - Projeto 02</h2>
+            </div>
+
+            <div class="topnav">
+                <a class="active" href="poo.html">Pagina Inicial</a>
+                <a href="amortamer.jsp">Amortizacao Americana</a>
+                <a href="amortcons.jsp">Amortizacao Constante</a>
+                <a href="tabelaprice.jsp">Tabela Price</a>
+            </div>
